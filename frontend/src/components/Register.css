@@ -1,0 +1,127 @@
+@media all and (min-width: 480px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+	  color:  #333333;
+  }
+
+  .box-form {
+    margin: 0;
+    width: 100%;
+    height: 100vh;	
+    background: #FFFFFF;
+    overflow: hidden;
+    
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+
+    @media (max-width: cover) {
+      flex-flow:wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+    
+  }
+
+  div{height: auto;}
+
+  .Register {
+      padding: 3vw 3vw;
+		  overflow: hidden;
+
+    }
+  
+    .Register form {
+      margin: 3vw 6.5vw;
+      width: 20vw;
+    }
+
+    .Button {
+      margin: 3vw auto;
+      margin-right: 18vw;
+      width: 20vw;
+      background-color: #fa6352;
+      border-color: #fa6352;
+      box-shadow: 0 0 4px 1px #4d4d5085;
+      border-radius: 3px;
+      font-size: 20px;
+    }
+
+    .Button:hover {
+      background-color: #62b337;
+      border-color: #81a86c;
+      font-size: 22px;
+    }
+
+    .Register #firstName, #surname, #phoneNumber, #password, #age, #experience, #location, #password, #orgNumber, #orgName {
+      margin-top: 1.5vw;
+      display:flex;
+      border: none;
+      border-radius: 0;
+			outline: none;
+			border-bottom: 2px solid #B0B3B9;
+      width: 20vw;
+      }
+
+    .errormsg {
+      margin-top: 20px;
+      color: red;
+      font-size: 12px;
+    }
+
+    .left{
+      color: #FFFFFF;
+      width: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("Mountain-Hiking.jpg");
+      overflow: hidden;
+    }
+
+    .overlay {
+			padding: 30px;
+			width: 100%;
+			height: 100%;
+			background: #3333331c;
+			overflow: hidden;
+			box-sizing: border-box;
+    }
+
+
+    h1{
+      font-size: 10vw;
+      line-height: 1;
+      font-weight: 900;
+      margin-top: 30vh;
+      margin-bottom: 20px;
+    }
+
+    h5{
+			font-size: 5vmax;
+			line-height: 0;
+      margin-top: 5vw;
+    }
+
+    .joinFun {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 1.5vmax;
+      margin-top: 1vh;
+    }
+
+    p {
+      margin-top: 0.5vw;
+      font-size: 14px; 
+      color: #B0B3B9;
+      text-align: center;
+    }
+
+    .information {
+      margin-top: 6vw;
+    }
+      /*
+        Hardkodet marginer for å få til funksjonalitet
+      */
+  }

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57636242.css",
+    "main.js": "/static/js/main.6b569793.js",
+    "static/media/default_image.PNG": "/static/media/default_image.ea0938aca86ed3ef8ab1.PNG",
+    "static/media/oslo.jpg": "/static/media/oslo.31e2b06f7b1b3c9dd63c.jpg",
+    "static/media/stavanger.jpg": "/static/media/stavanger.86b1e0e389c83f874a8e.jpg",
+    "static/media/bergen.jpg": "/static/media/bergen.8b317ec46448da124fd7.jpg",
+    "static/media/Mountain-Hiking.jpg": "/static/media/Mountain-Hiking.3b3b1b749aa8846205ea.jpg",
+    "static/media/trondheim.jpg": "/static/media/trondheim.3a7b5a4bfe5c5f7a929c.jpg",
+    "static/media/profile2.png": "/static/media/profile2.5b2099a2e71632189ea9.png",
+    "static/media/mountain-icon.webp": "/static/media/mountain-icon.e7364ef591aeeae29ed0.webp",
+    "static/media/location-icon.png": "/static/media/location-icon.f62d4444e80af936f8d0.png",
+    "static/media/logout.png": "/static/media/logout.973c2d8b03e5c88e4723.png",
+    "index.html": "/index.html",
+    "main.57636242.css.map": "/static/css/main.57636242.css.map",
+    "main.6b569793.js.map": "/static/js/main.6b569793.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57636242.css",
+    "static/js/main.6b569793.js"
+  ]
+}

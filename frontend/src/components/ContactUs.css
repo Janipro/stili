@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    width: 55%;
+    height: 30vh;
+    margin-left: 25%;
+    margin-top: 15vh;
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    width: 10vw;
+    font-size: 30px;
+  }
+  h1 {
+    margin-top: 10vh;
+    margin-left: 7%;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+
+  h3 {
+    margin-left: 7%;
+  }
+
+  h6 {
+    font-weight: bold;
+    font-size: 1.4vw;
+    margin-bottom: 2vh;
+  }
+
+  p {
+    font-size: 1.2vw;
+    color: black;
+  }
+  .flex-container img {
+    vertical-align: middle;
+    width: 5vw;
+    height: auto;
+    margin-bottom: 3vh;
+  }
+
+  .mail {
+    width: 3vw;
+  }

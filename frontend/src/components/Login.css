@@ -1,0 +1,139 @@
+@media all and (min-width: 480px) {
+  body {
+    font-family: 'Open Sans', sans-serif;
+	  color:  #333333;
+  }
+  
+  .box-form {
+    margin: 2vh auto; 
+    width: 100%;
+    height: 53vw;	
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    
+    box-shadow: 0 0 20px 6px #292a4e85;
+
+    @media (max-width: cover) {
+      flex-flow:wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+    
+  }
+
+  div{height: auto;}
+
+  .Login {
+    padding: 3vw 3vw;
+    overflow: hidden;
+  }
+  
+    .Login form {
+      margin: 5.5vw 6.5vw;
+      width: 20vw;
+    }
+
+    .Button {
+      margin: 4vw auto;
+      align-items: center;
+      margin-right: 6vw;
+      width: 20vw;
+      background-color: #fa6352;
+      border-color: #fa6352;
+      box-shadow: 0 0 4px 1px #4d4d5085;
+      border-radius: 3px;
+      font-size: 20px;
+    }
+
+    .Button:hover {
+      background-color: #62b337;
+      border-color: #81a86c;
+      font-size: 22px;
+    }
+    
+    #phoneNumber {
+      margin-bottom: 10px;
+      display:flex;
+      width: 20vw;
+    }
+
+    #password {
+      margin-top: 10px;
+      display: flex;
+      width: 20vw;
+    }
+
+    .errormsg {
+      margin-top: 20px;
+      color: red;
+      font-size: 12px;
+    }
+
+    .overlay {
+			padding: 30px;
+			width: 100%;
+			height: 100%;
+			background: #3333331c;
+			overflow: hidden;
+			box-sizing: border-box;
+    }
+
+    .left{
+      color: #FFFFFF;
+      width: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("Mountain-Hiking.jpg");
+      overflow: hidden;
+    }
+
+    .left h1{
+      font-size: 10vw;
+      line-height: 1;
+      font-weight: 900;
+      margin-top: 30vh;
+      margin-bottom: 20px;
+    }
+
+    h5{
+			font-size: 5vmax;
+			line-height: 0;
+      margin-top: 5vw;
+    }
+
+    .promo {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 2vmax;
+      margin-top: 1vh;
+    }
+
+    .promo2 {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 1.2vmax;
+      margin-top: 1vh;
+    }
+
+    p {
+      margin-top: 0.5vw;
+      font-size: 14px; 
+      color: #B0B3B9;
+      text-align: center;
+    }
+
+    .information {
+      margin-top: 6vw;
+    }
+
+      /*
+        Hardkodet marginer for å få til funksjonalitet
+      */
+  }

@@ -1,0 +1,77 @@
+    .ProfilePage {
+        margin: -12vh 10vw 0 20vw;
+        width: 60vw;
+        height: auto;	
+        overflow: visible;
+        position: relative;
+        top: 10vw;
+}
+    .profilePic{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 7vw;
+        border-radius: 50%;
+        margin-left: 6.5%;
+    }
+
+    .example-text-box {
+        width: 60vw;
+    }
+
+    .example-text-box p{
+        margin: 0 0 0 0;
+        height: auto;
+        color: black;
+    }
+
+    .flex-container {
+      display: flex;
+      background-color: transparent;
+      justify-content: space-between;
+      width: 55%;
+      height: 30vh;
+      margin-left: 25%;
+      margin-top: 5vh;
+    }
+    
+    .flex-container > div {
+      background-color: #ffffff;
+      width: 10vw;
+      font-size: 30px;
+    }
+
+    h1 {
+      font-size: 3vw;
+    }
+
+
+    .flex-container img {
+      vertical-align: middle;
+      width: 4vw;
+      height: auto;
+    }
+   
+    .editButton{
+        margin: 1vh;
+        margin-top: 4vh;
+        background-color: #fa6352;
+    }
+
+    .errormsg{
+        margin: 1vh;
+    }
+
+    .ProfilePage #firstName, #surname, #phoneNumber, #password, #age, #experience, #location, #password, #orgNumber, #orgName {
+      margin-top: 1.5vw;
+      display: inline;
+      border: none;
+      border-radius: 0;
+			outline: none;
+			border-bottom: 2px solid #B0B3B9;
+      width: 60%;
+      }
+
+      
+
+  
